@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e438a033-2601-4db3-a2cc-cab000fc39d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\FileManager">
+      <UniqueIdentifier>{0c31844e-41fd-40f9-8713-8c53f0ce3ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SQL">
+      <UniqueIdentifier>{dc76e046-c95b-4a32-a3c9-d69fc6c00507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Sender">
+      <UniqueIdentifier>{dc89637f-529a-4fe6-8ad6-3588f9b801c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Parser">
+      <UniqueIdentifier>{f880fcf1-2f79-4991-bad7-ccf2a7dff493}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql\sqlite3.c">
+      <Filter>src\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sql\SQLHelper.cpp">
+      <Filter>src\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DB2FTPExporter.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileManager\FileManager.cpp">
+      <Filter>src\FileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sender\Sender.cpp">
+      <Filter>src\Sender</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser\Parser.cpp">
+      <Filter>src\Parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\sql\sqlite3.h">
+      <Filter>src\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sql\sqlite3ext.h">
+      <Filter>src\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sql\SQLHelper.h">
+      <Filter>src\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DB2FTPExporter.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sql\ISQLHelper.h">
+      <Filter>src\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileManager\FileManager.h">
+      <Filter>src\FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileManager\IFileManager.h">
+      <Filter>src\FileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sender\ISender.h">
+      <Filter>src\Sender</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sender\Sender.h">
+      <Filter>src\Sender</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parser\Parser.h">
+      <Filter>src\Parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
